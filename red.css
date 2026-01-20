@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1200px;
+    background-color: #3c060f;
+    /* background-color: #45171B; */
+    margin: 70px auto;
+    padding: 10px;
+    /* font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px; */
+}
+
+
+.invitation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wax_seal {
+    width: 150px;
+    position: absolute;
+    left: 23.5%;
+    top:2%;
+}
+
+.invitation .couple{
+    width:600px;
+}
+
+.invitation .lettre{
+    width:550px;
+    background-color: #D8D1C2;
+}
+
+.title{
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 45px;
+}
+
+
+.heros{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.names{
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 95px;
+    line-height: 0.7;
+}
+
+.names .m_name{
+    margin-right: 37%;
+}
+
+.names .and{
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 55px;
+}
+
+.names .w_name{
+    margin-left: 40%;
+}
+
+.heros .date{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.heros .date .day{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heros .date .day .day-number{
+    margin-top: 14px;
+    /* height: 30px; */
+    font-family: "Mrs Saint Delafield", cursive;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.heros .date .week_day, .heros .date .time{
+    margin-top: 43px;
+    width: 60px;    
+    height: 30px;
+    padding-top: 7px;
+    border-top: solid 1.5px;
+    border-bottom: solid 1.5px;
+}
+
+
+.invitation .information{
+    text-align: right;
+    padding: 30px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    line-height: 1.5;
+}
